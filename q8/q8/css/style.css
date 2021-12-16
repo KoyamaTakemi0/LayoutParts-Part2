@@ -1,2 +1,27 @@
 @charset "UTF-8";
+.BG_content{
+  height: 500px;
+}
 
+.BG_img{
+  background-image: url("../../image/coffee-background.jpg");
+}
+
+.BG_img--norepeat{
+  background-image: url("../../image/coffee-background.jpg");
+  background-repeat: no-repeat;
+}
+
+.BG_img--center01{
+  background-image: url("../../image/coffee-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.BG_img--center02{
+  background-image: url("../../image/coffee-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

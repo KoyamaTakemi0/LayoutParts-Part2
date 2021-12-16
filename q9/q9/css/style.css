@@ -1,4 +1,25 @@
 @charset "UTF-8";
 
+.box{
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  background-color: #76ff826b;
+}
+
+.fade_in{
+  animation: fadeIn 4s ease 0s 1 normal;
+}
+
+@keyframes fadeIn{
+  0% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
 /* カード内の画像は以下のURLを使用して下さい */
 /* https://picsum.photos/id/1005/200/300 */
