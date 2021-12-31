@@ -12,6 +12,7 @@
   line-height: 50px;
   cursor: pointer;
   border-radius: 10px;
+  transition: 0.5s;
 }
 
 .btn:first-child{
@@ -72,4 +73,34 @@
 .active_red:active, .active_blue:active, .active_green:active{
   transform: translateY(5px);
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.851);
+}
+
+.hover_01{
+  color: #67c5ff;
+  /* background-color: #fff; */
+  border: double 4px #67c5ff;
+}
+
+.hover_01:hover{
+  background:#fffbef;
+}
+
+.hover_02{
+  color: #67c5ff;
+  border: dotted 4px #75caff;
+}
+
+.hover_02:hover{
+  border: dashed 4px #75caff;
+}
+
+.hover_03{
+  color: #0079a5f8;
+  background: #d0edfff8;
+  border: dashed 4px #67c5ff;
+}
+
+.hover_03:hover{
+  color: #67c5ff;
+  background: #ffffff;
 }
